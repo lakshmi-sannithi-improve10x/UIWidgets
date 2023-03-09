@@ -26,8 +26,15 @@
         android:id="@+id/changedate_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="#21B8AA"
         android:text="Change Date" />
+
+    <TextView
+        android:id="@+id/year_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leap Year"
+        android:textSize="20sp" />
 
 </LinearLayout>
